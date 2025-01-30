@@ -9,6 +9,7 @@ class Persona(val peso: Double, var altura: Double) {
         this.nombre = nombre
     }
 
+
     override fun toString(): String {
         return "Nombre: $nombre, Peso: $peso kg, Altura: $altura m, IMC: ${"%.2f".format(imc)}"
     }
