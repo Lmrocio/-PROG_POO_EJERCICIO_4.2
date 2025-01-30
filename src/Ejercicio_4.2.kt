@@ -14,7 +14,6 @@ class Persona(val peso: Double, var altura: Double) {
         return "Nombre: $nombre, Peso: $peso kg, Altura: $altura m, IMC: ${"%.2f".format(imc)}"
     }
 
-
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (other !is Persona) return false
